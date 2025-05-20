@@ -1,0 +1,14 @@
+# Ignore system files
+*.log
+*.DS_Store
+__pycache__/
+.vscode/
+.idea/
+
+# Ignore Python environment & dependencies
+venv/
+*.pyc
+
+# Ignore credentials (important for security!)
+.env
+credentials.json
